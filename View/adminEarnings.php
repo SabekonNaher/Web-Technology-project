@@ -4,8 +4,6 @@ if(!isset($_SESSION))session_start();
 
 <html>
 <head>
-
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -174,7 +172,5 @@ if(!isset($_SESSION))session_start();
   </script>
 
 </body>
-
-
 
 </html>

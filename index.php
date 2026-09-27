@@ -8,6 +8,7 @@ if (isset($_SESSION['username'])) {
         require_once __DIR__ . '/View/adminDashboard.php';
 
     } 
+
     elseif ($_SESSION['userRole']=== 'manager')  {
 
     require_once __DIR__ . '/View/ManagerDashboard.php';
